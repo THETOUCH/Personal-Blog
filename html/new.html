@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Send Article</h1>
+
+    <form action="/new" method="post">
+        <div>
+            <label for="title">Article Title</label><br>
+            <input type="text" id="title" name="title" placeholder="Article Title">
+        </div>
+        <div>
+            <label for="date">Publishing Date</label><br>
+            <input type="date" id="date" name="date">
+        </div>
+        <div>
+            <label for="content">Content</label><br>
+            <textarea id="content" name="content" rows="12" placeholder="Write your article here..."></textarea>
+        </div>
+        <input type="submit" value="Publish">
+    </form>
+</body>
+</html>
